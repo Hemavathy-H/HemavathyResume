@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<header>
+    <head>
+        <title>Resume Website</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="refresh" content="100">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <script src='https://kit.fontawesome.com/a076d05399.js'></script>   <!-- For Address,mail and phone Icon-->
+        <style>
+            body{
+                font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                background-repeat: no-repeat;
+                background-size: cover;
+                border-style: double;
+                border-width: 2%;
+                padding: 1%;
+            }
+
+            table, th, td {
+                border: 1.5px solid black;
+                margin-left: 2%;
+                border-collapse: collapse;
+                padding: 10px; 
+            }
+
+            th  {
+                background-color: #b0ffe570;
+            }
+
+            td#skills   {
+                width: 500px;
+            }
+
+            .top  {
+                border-top: 1px dotted black;
+            }
+
+            .bottom {
+                border-top: 2px solid  black;
+            }
+
+            .name   {
+                font-family: Imprint MT Shadow;
+                font-size:130%;
+                padding-top: 2%;
+                padding-bottom: 2%;
+                font-weight: 600;   
+            }
+
+            .photo  {
+                float: right;
+                display: block;
+            }
+
+            a:link  {
+                font-style: italic;
+            }
+
+            .left {
+              float: left;
+              width: 45%; /* The width is 35%, by default */
+            }
+            
+            .main {
+              float: left;
+              text-align: center;
+              width: 22%; /* The width is 30%, by default */
+            }
+
+            .right  {
+                float: left;
+                width:33%;    
+            }
+            
+            /* Use a media query to add a breakpoint at 800px: */
+            @media screen and (max-width: 1450px) {
+              .left, .main, .right {
+                width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+
+                }
+            }
+
+            .name {                     /* To make my my name responsive */
+                    padding-top: 5%
+            }
+            
+            a#certificate   {
+                text-decoration: none;
+            }
+            
+            ul#socialmedia {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color:#68bea16e;
+            }
+
+            li#socialmedia {
+                float: right;
+            }
+
+            li#socialmedia a {
+                font-family:'Courier New', Courier, monospace;
+                font-size: 20px;
+                display: block;
+                color: black;
+                text-align: center;
+                text-decoration: none;
+                padding: 20px;
+            }
+
+            li#socialmedia a:hover {
+                background-color: #b0ffe570;
+            }
+
+            .button {
+                background-color: #68bea1; 
+                border: 2px solid black;
+                color: black;
+                padding: 10px;
+                text-align: center;
+                text-decoration: none;
+                font-size: 14px;
+                display: block;
+            }
+
+            .button:hover   {
+                background-color: #b0ffe570;
+            }
+
+            li#CV   {
+                margin: 0;
+                padding:2%;
+            }         
+
+        </style>
+    </head>
+</header>
+
+<body style=" background-image: url('https://www.xmple.com/wallpaper/white-blue-gradient-linear-1920x1080-c2-87cefa-ffffff-a-345-f-14.svg');">
+    
+        <img class="photo" src="https://i.pinimg.com/564x/e0/d8/2b/e0d82bc781630bfec521eb9a9b6cce26.jpg"  alt="not supported" width="150px" height="160px"/>
+        <section>
+            <div style= "text-align: center;" class="name">
+                <span style="font-size: 150%;">HEMAVATHY HARIKRISHNAN</span><br/> 
+                <span>Front End Learner</span>
+            </div>
+
+            <section style="text-align: center;" class="contact">
+                <div class="left"><hr class="top"/>
+                    <b><i class='far fa-address-card'></i></b>&nbsp;&nbsp; 44/15/8B P M S Kollai Street, Krishnapuram, Ambur 635802.</div>
+                    
+                <div class="main"><hr class="top"/>
+                    <b><i class='fas fa-mail-bulk'></i></b>&nbsp;&nbsp; <a href="mailto: hemahari163@gmail.com">hemahari163@gmail.com</a></div>
+        
+                <div class="right"><hr class="top"/>
+                    <b><i class='fas fa-phone-square-alt'></i></b>&nbsp; 8838126367</div>
+        </section>
+
+        <section name="Objective">
+            <h4><br/><hr class="bottom"/>Objectives</h4>
+                <p style="margin-left: 2%;">To obtain a position that enables me to use, extend my academic skills and technical ability to work effectively, and being part of the progress of an organization.</pstyle>
+        </section>
+
+        <section name="Education">
+            <h4>Education</h4>
+                <ul style="list-style-type: circle;">
+                    <li>Masters in Computer Applications: Vellore Institute of Technology, Vellore.<br/>
+                        (Currently pursuing)<br/>
+                        CGPA: 8.91 (till I year)<br/>
+                        Year: 2019 - 2021<br/><br/>
+                    </li>
+            
+                    <li>Bachelor in Computer Applications: Thiruvalluvar University, Vellore.<br/>
+                        CGPA: 8.74<br/>
+                        Year: 2019<br/><br/>
+                    </li>
+
+                    <li>Higher Secondary: State Board, SVMHS School, Ambur.<br/>
+                        Percentage: 88.5%<br/>
+                        Year: 2016<br/><br/>
+                    </li>
+                    
+                    <li>SSLC: State Board, SVMHS School, Ambur.<br/>
+                        Percentage: 97.4%<br/>
+                        Year: 2014<br/>
+                    </li>
+                </ul>    
+        </section>
+
+        <section name="Technical Skills">
+            <h4>Technical Skills</h4>
+            <div style="overflow-x: auto;">
+                <table>
+                    <thead>
+                        <th>s.no</th>
+                        <th colspan="2">skills</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Languages</td>
+                            <td id="skills">C, C++, Java and Python - Basics</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Web Technologies</td>
+                            <td id="skills">HTML5, CSS3 and Javascript</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Database</td>
+                            <td id="skills">SQL</td>
+                        </tr>
+                        <tr>
+                            <td>4 </td>
+                            <td>Operating system and others</td>
+                            <td id="skills">Microsoft Windows 10, MS-Office</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section name="Acheivement">
+            <h4>Acheivement</h4>
+            <ul style="list-style-type: circle;">
+                <li>Secured 9th Rank in BCA at University level.</li>
+            </ul>
+        </section>
+
+        <section name="Certification">
+            <h4 >Certifications</h4>
+            <ul style="list-style-type: circle;" >
+                <li>Certified for completion of an online course named <a href="https://coursera.org/share/d7e79ae522aed6c9df2804d42b4d7528" id="certificate">Programming for Everybody - Python</a> in Coursera. <br/></li>
+                <li>Certified for completion of an online course named <a href="https://www.guvi.in/verify-certificate?id=FfTd8Ig265525186k6" id="certificate">Javascript</a> in Guvi<br/></li>
+            </ul>
+        </section>
+
+        <section name="Projects">
+            <h4>Projects</h4>
+            <fieldset>
+                <legend><b>Outlier detection in online shopping using K-means clustering technique</b> </legend><br/>
+                <b>Project Description:</b>  The objective of this project is to detect the outliers from the dataset. An outlier can be found as the deviations from the data values or missing values. The Detection of outlier in the Online Shopping dataset is achieved by the k-means clustering algorithm using R software. 
+            </fieldset><br><br>
+            <fieldset>
+                <legend><b>Implementing Distributed Deadlock Prevention Using Banker’s Algorithm</b></legend><br/>
+                <b>Project Description:</b> In the distributed kind of approach, the different nodes work together for deadlock detection. Our proposed algorithm is Banker’s algorithm, when the process is ready to use the resource, initially the algorithm will fetch the required files, and then the process is allowed to take the resources once the files are available. If the file is not available or the file is being used by any other process then the CPU will make the process to waiting stage. Also, the next process will not start, until the process changed from waiting stage, when the required files are made available. 
+            </fieldset>
+        </section>
+
+        <section name="Extra-curricular">
+            <h4>Extra-curricular</h4>
+            <ul style="list-style-type: circle;">
+                <li>Participated in various cultural events in college. </li>
+                <li>Secured First class in Technical examinations - Senior Level in English and Tamil Typewriting.</li>
+            </ul>
+        </section>
+
+        <section name="Qualities">
+            <h4>Personal Qualities</h4>
+            <ul style="list-style-type: circle;">
+                <li>Leadership - Effectively acted as a Department Secretary in college and took responsibilities to organize the various co-curricular and extracurricular activities. </li>
+                <li>Self-motivation. </li>
+                <li> Resilience and Perseverance behavior.   </li>
+                <li> Attention to detail. </li>
+            </ul>
+        </section>
+
+        <section name="Details">
+            <h4>Personal Details</h4>
+            <dl style="margin-left: 2%;">
+                <dt>Date of Birth   -</dt>
+                    <dd>16/09/1998</dd><br/>
+                <dt>Languages known -</dt>
+                    <dd>Tamil - Native, Fluent.</dd>
+                    <dd>English - Professional level.</dd>
+            </dl>
+        </section><hr/>
+        
+        <section>
+        <ul id="socialmedia" style="list-style-type:none;" >
+            <li id="socialmedia" >
+                <a href="https://www.hackerrank.com/hemahari163" target="_blank"><i class='fab fa-hackerrank' style="color:green"></i></a>
+            </li>
+            <li id="socialmedia" >
+                <a href="https://www.instagram.com/_hema_hari_/" target="_blank"><i class='fab fa-instagram' style="color:red;"></i></a>
+            </li>
+            <li id="socialmedia" >
+                <a href="https://github.com/Hemavathy-H" target="_blank"><i class='fab fa-github-square' style="color: black;"></i></a>
+            </li>
+            <li id="socialmedia" >
+                <a href="https://www.linkedin.com/in/hemavathy-h-b24a941a3" target="_blank"><i class='fab fa-linkedin' style="color:blue;"></i></a>
+            </li>
+            <li style="float:left;" id="CV">
+                <a href="https://drive.google.com/file/d/1HAGg15w6eG4DkzbAZ9tvPsO9N-_7mJ7F/view?usp=sharing" download target="_blank"><button class="button">Download CV</button></a>
+                </li>
+        </ul>
+    </section>
+</body>
+</html>
